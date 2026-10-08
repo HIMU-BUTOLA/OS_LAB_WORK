@@ -1,1 +1,2 @@
-# OS_LAB_WORK uploading
+# OS_LAB_WORK 
+This repo have our os lab programs.
