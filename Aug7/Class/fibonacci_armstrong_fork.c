@@ -22,12 +22,18 @@ void fibonacci(int n)
 
 int isArmstrong(int num)
 {
-    int original = num, sum = 0, digit;
+    int original = num, sum = 0, digit, ndigit = 0;
+    while(original>0)
+        {
+            ndigit++;
+            origianl/=10;
+        }
+    original = num;
 
     while (original > 0)
     {
         digit = original % 10;
-        sum += digit * digit * digit;
+        sum += pow(digit,ndigit);
         original /= 10;
     }
 
